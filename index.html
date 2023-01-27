@@ -1,0 +1,262 @@
+<!-- Fly3949 ©2018 -->
+<!DOCTYPE html>
+<html lang=zh-cmn-Hans>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="泉州五中,毕业,毕业档案">
+    <meta name="description" content="五中狼的毕业档案">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>五中狼的毕业档案</title>
+    <base href="https://cdn-record2018.qz5z.ren">
+    <link rel="icon" href="assets/img/logo.png" type="image/x-icon">
+    <link href="https://cdn.bootcss.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/Buttons/2.0.0/css/buttons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-78734040-8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-78734040-8');
+    </script>
+
+</head>
+
+<body>
+    <!-- 喂分享组件吃的图片 -->
+    <div style="position: fixed;top: -9999px;">
+        <img src="assets/img/pages/7/1.jpg">
+    </div>
+    <img src="assets/img/music-off.png" class="music-btn">
+
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+
+    <div id="bg1"></div>
+    <!-- 默认隐藏，非首页则显示 -->
+    <div id="bg2"></div>
+    <div class="cloud"></div>
+    <div class="flight"></div>
+
+    <!--MOB SHARE BEGIN-->
+    <div class="-mob-share-ui" style="display: none">
+        <ul class="-mob-share-list">
+            <li class="-mob-share-weibo">
+                <p>新浪微博</p>
+            </li>
+            <li class="-mob-share-qzone">
+                <p>QQ空间</p>
+            </li>
+            <li class="-mob-share-qq">
+                <p>QQ好友</p>
+            </li>
+            <li class="-mob-share-douban">
+                <p>豆瓣</p>
+            </li>
+            <li class="-mob-share-facebook">
+                <p>Facebook</p>
+            </li>
+            <li class="-mob-share-twitter">
+                <p>Twitter</p>
+            </li>
+        </ul>
+        <div class="-mob-share-close">取消</div>
+    </div>
+    <div class="-mob-share-ui-bg"></div>
+    <!--MOB SHARE END-->
+
+    <div class="wrap" id="wrap">
+
+        <div class="item item-1">
+            <div class="title"></div>
+            <div class="avatar"></div>
+            <div class="center">
+                <button class="btn-login button button-white button-rounded">查看我的毕业档案</button>
+            </div>
+        </div>
+
+        <div class="item item-2">
+            <div class="page">
+                <p class="item-text">
+                    在
+                    <span class="highlight">1011</span>
+                    天之前
+                    <br> 你紧握着录取通知书
+                    <br> 憧憬而又不安地
+                    <br> 第一次踏入五中的校门
+                </p>
+                <p class="divide"></p>
+                <p class="item-text bb last">出发，是为了更好的未来</p>
+                <img src="assets/img/pages/1/1.png" style="max-width: 60%;margin-top: 10vw;">
+            </div>
+        </div>
+
+        <div class="item item-3">
+            <div class="page">
+                <p class="item-text">
+                    从年段
+                    <span class="highlight countup" id="score-from"></span>
+                    名到
+                    <span class="highlight countup" id="score-to"></span>
+                    名
+                    <br>
+                    <span class="highlight" id="score-percent"></span>
+                    <span class="highlight">%</span>
+                    的飞跃
+                    <br> 汗水浸湿的稿纸
+                    <br> 堆叠如山的笔芯
+                    <br> 是成长的见证
+                </p>
+                <p class="divide"></p>
+                <p class="item-text bb last">努力，是为了某一天的蜕变</p>
+                <img src="assets/img/pages/2/1.png" style="max-width: 50%;margin-top: 10vw;">
+            </div>
+        </div>
+
+        <div class="item item-4">
+            <div class="page">
+                <p class="item-text">
+                    『表示从一楼到四楼的距离』
+                    <br> 『原来只有三年』
+                    <br> ……
+                    <br> 印象中，三年里
+                    <br> 教学楼到食堂的路
+                    <br> 来来回回
+                    <br> 走了
+                    <span class="highlight" id="steps"></span> 多趟
+                </p>
+                <p class="divide"></p>
+                <p class="item-text bb last">时间奔跑着，一年又一年</p>
+                <img src="assets/img/pages/3/1.png" style="max-width: 70%;margin-top: 0;">
+            </div>
+        </div>
+
+        <div class="item item-5">
+            <div class="page">
+                <p class="item-text">
+                    你的 2018 关键词
+                    <br> &nbsp;
+                    <span class="highlight" id="keyword1">奋斗</span>&nbsp;
+                    <br> &nbsp;
+                    <span class="highlight" id="keyword2">成就</span>&nbsp;
+                    <br>
+                    <span class="highlight" id="keyword3">非凡</span>
+                </p>
+                <p class="divide"></p>
+                <p class="item-text bb last">向前跑，哪怕迎着冷眼和嘲笑</p>
+                <img src="assets/img/pages/4/1.png" style="max-width: 70%;margin-top: 15vw;">
+            </div>
+        </div>
+
+        <div class="item item-6">
+            <div class="page">
+                <p class="item-text">
+                    步入大学校园的你
+                    <br> 是否还记得
+                    <br> &nbsp;&nbsp;&nbsp;曾经的伙伴？
+                    <br> 班主任的口头禅
+                    <br> &nbsp;&nbsp;&nbsp;是否还在耳边回响？
+                </p>
+                <p class="divide"></p>
+                <p class="item-text bb last">五中狼，青春不散场</p>
+                <img src="assets/img/pages/5/1.png" style="max-width: 60%;margin-top: -8vw;">
+            </div>
+        </div>
+
+        <div class="item item-7">
+            <div class="page">
+                <p class="item-text">
+                    十年后的你
+                    <br> 也许正经历种种坎坷
+                    <br> 孤身闯荡，形单影只
+                    <br> 也许你会想回到过去
+                    <br> 再做一次选择
+                    <br> 请不要放弃，不要感到遗憾
+                    <br> 五中狼，总要学会独自拼搏
+                </p>
+                <p class="divide"></p>
+                <p class="item-text bb last">五中狼，相信未来会更好</p>
+                <img src="assets/img/pages/6/1.png" style="max-width: 60%;margin-top: -3vw">
+            </div>
+        </div>
+
+        <div class="item item-8">
+            <div class="page">
+                <p class="item-text bb">写一句话，给未来的自己</p>
+                <p class="item-text" style="font-size: 2.5vw">140 字以内，只有一次机会哦！</p>
+                <div class="input-group" style="padding:2vw">
+                    <textarea id="say-t1" type="text" class="form-control" placeholder="给踏入大学校园的自己" maxlength="140"></textarea>
+                </div>
+                <div class="input-group" style="padding:2vw">
+                    <textarea id="say-t2" type="text" class="form-control" placeholder="给十年后的自己" maxlength="140"></textarea>
+                </div>
+                <div class="input-group" style="padding:2vw">
+                    <input id="say-email" type="email" class="form-control" placeholder="你的邮箱">
+                </div>
+                <br>
+                <div class="center">
+                    <button id="say-btn" id="btn-do-login" class="button button-primary button-rounded">写好啦</button>
+                </div>
+                <br>
+                <div class="center">
+                    <button class="button button-primary button-rounded" onclick="myslider.next();">算了，以后再写</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="item item-9">
+            <div class="page" style="padding-top: 5vw">
+                <p class="item-text bb">
+                    五中狼，毕业了……
+                </p>
+                <p class="divide"></p>
+                <img src="assets/img/pages/7/1.jpg" style="max-width: 80%;max-height: 45vh; margin-top: 4vw;">
+                <p class="item-text" style="font-size: 2vw;margin-top: 2vw;line-height: 4.5vw;">
+                    我只想拉住流年，好好的说声再见……
+                    <br> 六月后，光年成记念。
+                    <br> —— 雷雨心《记念》
+                </p>
+                <div class="row" style="margin: 0 auto;padding: 5vw;">
+                    <div class="col-xs-4" style="margin: 0 auto;">
+                        <div class="center">
+                            <button id="say-btn" class="button button-primary button-rounded btn-share" style="width: 30vw;padding: 0 5px;">分享</button>
+                        </div>
+                    </div>
+                    <div class="col-xs-4" style="margin: 0 auto;">
+                        <div class="center">
+                            <button class="button button-primary button-rounded" onclick="myslider.slideTo(0)" style="width: 30vw;padding: 0 5px;">返回</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 滑块 -->
+    <div class="global">
+        <div class="slider">
+            <span class="sprite_global"></span>
+        </div>
+    </div>
+
+    <audio id="bgm" src="assets/audio/bgm.mp3" style="display:none" loop preload></audio>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/js/iSlider.js"></script>
+    <script src="assets/js/layer.js"></script>
+    <script id="-mob-share" src="assets/js/mob-share.js?appkey=263c7e29d9f40"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
